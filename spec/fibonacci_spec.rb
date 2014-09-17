@@ -19,6 +19,6 @@ describe Fibonacci do
   end
 
   it 'should flexibly accept inputs such as "6"' do
-    assert_equal(8, Fibonacci.find_digit("6"))
+    assert_equal(8, Fibonacci.find_digit('6'))
   end
 end
